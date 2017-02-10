@@ -1,8 +1,19 @@
 # 17 High - API Design
+## Introduce
+
+This repository is forked from swagger-ui, used to view the API design of 17 High.
+To edit the design will need a swagger-edit to update the design json/yml located in
+/src/main/api_design/v1
 
 ## How to run
 
+* `npm install`
+* `npm run build`
+* `npm run serve`
 
+The server will be start on 8080 port.
+
+http://localhost:8080
 
 
 
