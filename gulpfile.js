@@ -159,6 +159,7 @@ gulp.task('uglify-libs', function() {
 gulp.task('watch', ['copy-local-specs'], function() {
   return watch([
     './src/**/*.{js,less,handlebars}',
+    './src/main/api_design/**/*.{yaml,json}',
     './src/main/html/*.html',
     './test/specs/**/*.{json,yaml}'
     ],
