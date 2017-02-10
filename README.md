@@ -11,9 +11,9 @@ To edit the design will need a swagger-edit to update the design json/yml locate
 * `npm run build`
 * `npm run serve`
 
-The server will be start on 8080 port.
+The server will be start on 8088 port.
 
-http://localhost:8080
+http://localhost:8088
 
 
 
